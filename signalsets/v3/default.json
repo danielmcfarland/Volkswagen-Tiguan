@@ -245,15 +245,15 @@
   "signals": [
     {"id": "TIGUAN_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2022], "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2017, 2022], "from": 2027 },
   "signals": [
     {"id": "TIGUAN_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017, 2021, 2022], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2017, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_PQ35_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "filter": { "to": 2015 }, "dbgfilter": { "to": 2014 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2203"}, "freq": 30, "filter": { "to": 2015 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014] },
   "signals": [
     {"id": "TIGUAN_PQ35_ODO", "path": "Trips", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -261,11 +261,11 @@
   "signals": [
     {"id": "TIGUAN_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2206"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2206"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
     {"id": "TIGUAN_PQ35_FUEL_LVL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2016, 2017, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "TIGUAN_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -273,19 +273,19 @@
   "signals": [
     {"id": "TIGUAN_PQ35_CHG_AIR_P", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017, 2022], "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2017, 2022], "from": 2027 },
   "signals": [
     {"id": "TIGUAN_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
     {"id": "TIGUAN_PQ35_DIST_EMPTY", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2299"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2299"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
     {"id": "TIGUAN_DASH_AVG_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
     {"id": "TIGUAN_FLI_714", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},

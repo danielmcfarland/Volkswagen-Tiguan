@@ -1,0 +1,5 @@
+command_id: 714.77E.22229A|din=03
+test_cases:
+- expected_values:
+    TIGUAN_FLI_714: 53.5
+  response: 77E0562229A01AC
