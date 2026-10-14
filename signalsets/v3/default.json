@@ -287,7 +287,7 @@
   ]},
 { "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 30, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014], "from": 2016 },
   "signals": [
-    {"id": "TIGUAN_FLI_714", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
+    {"id": "TIGUAN_FLI_714", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input"}
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2021, 2022, 2024], "from": 2026 },
   "signals": [
